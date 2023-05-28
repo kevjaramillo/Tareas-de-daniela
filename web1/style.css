@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(151, 202, 247);
+}
+
+.item1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+.pais {
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    width: 600px;
+    height: 450px;
+}
+
+section img {
+    width: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+}
+
+section img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: .5s contrast(120%);
+}
+
+.img1 {
+
+    width: 50px;
+    height: 250px;
+}
+
+.img2 {
+
+    width: 50px;
+    height: 250px;
+}
+
+.img3 {
+
+    width: 50px;
+    height: 250px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Rubik:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image: url(./img/cubos-rubik.jpg);
+
+}
+
+.head{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.nav{
+    background-color: #ce69e7;
+    border: solid 2px #ffffff;
+    border-radius: 15px;
+    width: 200px;
+    height: 330px;
+    list-style: none;
+    margin: 15px;
+}
+
+.article-principal{
+    background-color: #ce69e7;
+    border: solid 2px #ffffff;
+    border-radius: 15px;    
+    width: 700px;
+    margin: 15px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulos{
+    background-color: #ffffff;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    font-family:  'Bruno Ace SC', cursive;
+
+}
+
+.parrafo{
+    background-color: #ffffff ;
+    border-radius: 15px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;;
+}
+
+.titulo{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.foter{
+    background-color: #848397;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    margin: 15px;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
+   
+.lista{
+    list-style: lower-roman;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: solid 8px;
+    border-radius: 15px;
+    margin: 15px;
+    object-fit: fill;
+}

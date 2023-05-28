@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: black;
+}
+
+.header{
+    text-align: center;
+    height: 50px;
+}
+
+.header h1{
+    padding-top: 10px;
+    color: aqua;
+}
+
+.banco{
+    text-align: center;
+    
+}
+
+.iv{
+    padding-top: 20px;
+    border: solid rgb(99, 99, 161);
+    border-radius: 15px;
+    margin-top: 10px;
+    color: aqua;
+}

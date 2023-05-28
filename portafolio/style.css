@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.barra {
+
+    padding: 15px;
+    background: rgb(195, 252, 242);
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+
+}
+
+.barra h4:hover,
+.barra h4.active {
+    color: rgb(139, 139, 143);
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+.nav h4 {
+    margin-right: 40px;
+}
+
+.presentacion {
+    list-style: none;
+    display: flex;
+
+}
+
+.contenido1 {
+    margin-top: 70px;
+    padding: 100px;
+    font-size: 30px;
+    width: 800px;
+}
+
+.border1 {
+    border: solid 3px rgb(151, 207, 203);
+    background-color: rgb(151, 207, 203);
+    border-radius: 25px;
+}
+
+.p1 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.p2 {
+    margin: 10px;
+    font-size: 70px;
+    color: rgb(61, 146, 146);
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+.p4 {
+    margin-top: 20px;
+    border: solid 3px rgb(182, 248, 243);
+    background-color: rgb(182, 248, 243);
+    border-radius: 25px;
+    width: 210px;
+
+}
+
+.img0 {
+    margin-left: 70px;
+    width: 390px;
+    height: 390px;
+    margin-top: 120px;
+    box-shadow: 0 0 1rem rgb(155, 158, 158);
+}
+
+
+.mis-conocimientos {
+    background-color: rgb(182, 248, 243);
+    height: 500px;
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+}
+
+.p5 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(34, 87, 87);
+
+}
+
+.p6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+
+.img1 {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: -130px;
+}
+
+
+.img2 {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: -130px;
+}
+
+
+.img3 {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: -130px;
+}
+
+.frase {
+    margin-top: 20px;
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+}
+
+.yo {
+    background-image: url(./img/xdas.jpg);
+    width: 100%;
+    height: 300px;
+}
+
+.yop {
+    width: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.proyectos {
+    background-color: rgb(182, 248, 243);
+    margin-top: 20px;
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(34, 87, 87);
+}
+
+
+.proyect {
+    margin-top: 30px;
+
+}
+
+.titulo2 {
+    padding: 100px;
+    margin-left: 200px;
+}
+
+.imagenes2 {
+    margin-left: 230px;
+}
+
+.img4 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    
+}
+
+.img5 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.img6 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+
+.titulo3 {
+    display: flex;
+}
+
+.inf1 {
+    margin-left: 270px;
+}
+
+.inf2 {
+    margin-left: 140px;
+}
+
+.inf3 {
+    margin-left: 150px;
+}
+
+.feedback {
+    height: 750px;
+    background-color: rgb(206, 202, 202);
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+}
+
+.titulo4 {
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.feedback-titulo {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgb(61, 146, 146);
+}
+
+.type1 {
+    margin: 50px;
+
+}
+
+.type3 {
+    margin-left: 50px;
+}
+
+.type4 {
+    margin-left: 50px;
+    height: 300px;
+    width: 700px;
+}
+
+.enviar2 {
+    margin-top: 100px;
+    margin-left: 60px;
+    border: solid 3px rgb(117, 160, 157);
+    background-color: rgb(121, 165, 162);
+    border-radius: 25px;
+    width: 100px;
+}
+
+.titulo5{
+    padding: 50px;
+}
+
+.contacto{
+    background-color: rgb(182, 248, 243);
+    margin-top: 20px;
+    box-shadow: 0 0 2rem rgb(92, 182, 182);
+}
+
+.icon1{
+    margin-left: 50px;
+    display: flex;
+}
+
+.icon1 i{
+    font-size: 50px;
+}
+
+.face{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icon2{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.icon2 i{
+    font-size: 50px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer{
+      background-color: rgb(182, 248, 243);
+    height: 50px;   
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+}

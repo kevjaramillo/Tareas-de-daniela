@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(./img/4k-ultra-hd-galaxy-wallpapers-top-gratis-4k-ultra-hd-galaxy.-imagen-4k-ultra-hd-de-galaxia-scaled.jpg);   
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white;
+}
+
+.subtitulos{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: #fff;
+}
+
+.rosado{
+    background-color: #75006c;
+    width: 150px ;
+    height: 50px;
+    list-style: none ;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+}
+
+.rosado1{
+    background-color: #a70491;
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rosado2{
+    background-color: #c000a6;
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rosado3{
+    background-color:#ba00c0;
+    width: 150px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rosado4{
+    background-color: #ff00c8;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.celeste{
+   
+    background-color:rgb(0, 82, 97);
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+}
+
+.celeste1{
+    background-color: rgb(1, 109, 136);
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.celeste2{
+    background-color: rgb(1, 153, 173);
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.celeste3{
+    background-color: rgb(0, 186, 211);
+    width: 150px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.celeste4{
+    background-color: rgb(129, 216, 243);
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rojo{
+    background-color: #460202;
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+}
+
+.rojo1{
+    background-color: #880707 ;
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rojo2{
+    background-color: #a31212 ;
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rojo3{
+    background-color:#df1010;
+    width: 150px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.rojo4{
+    background-color: #f51b1b;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.morado{
+    background-color: rgb(74, 4, 92);
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+}
+
+.morado1{
+    background-color: rgb(84, 7, 107);
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.morado2{
+    background-color:rgb(121, 6, 136)  ;
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.morado3{
+    background-color: rgb(164, 29, 218);
+    width: 150px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.morado4{
+    background-color: rgb(207, 41, 248) ;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.amarillo{
+    margin-top: 20px;
+    background-color: #a39408 ;
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.amarillo1{
+    background-color: #a8a612 ;
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.amarillo2{
+    background-color: #bdb216 ;
+    width: 150px;
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.amarillo3{
+    background-color:#d7eb29;
+    width: 150px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.amarillo4{
+    background-color: #edfd0a;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+.paleta{
+    margin: 60px;   
+
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.final{
+    margin-top: 200px;
+}
